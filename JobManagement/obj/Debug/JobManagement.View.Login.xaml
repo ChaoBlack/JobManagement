@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JobManagement.Login">
+	<ContentPage.Content>
+		<ScrollView Orientation="Vertical">
+			<StackLayout Orientation="Vertical">
+				<StackLayout Orientation="Horizontal" VerticalOptions="Start" HeightRequest="80" Padding="10,0,10,0">
+					<Button HeightRequest="30" Text="Skip" TextColor="Gray" HorizontalOptions="StartAndExpand" BorderColor="Gray" BorderWidth="2" BorderRadius="5" WidthRequest="70" VerticalOptions="Center"
+						Clicked="Skip_Clicked"/>
+					<Button x:Name="RegisterBtnTop" IsVisible="true" HeightRequest="30" Text="Register" TextColor="Gray" HorizontalOptions="EndAndExpand" BorderColor="Gray" BorderWidth="2" BorderRadius="5" WidthRequest="70" VerticalOptions="Center"
+						Clicked="RegisterBtnTop_Clicked"/>
+					<Button x:Name="LoginBtnTop" IsVisible="false" HeightRequest="30" Text="Login" TextColor="Gray" HorizontalOptions="EndAndExpand" BorderColor="Gray" BorderWidth="2" BorderRadius="5" WidthRequest="70" VerticalOptions="Center"
+						Clicked="LoginBtnTop_Clicked"/>
+				</StackLayout>
+				<BoxView HeightRequest="50"/>
+				<StackLayout>
+					<Label Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " HorizontalOptions="CenterAndExpand"/>
+				</StackLayout>
+				<BoxView HeightRequest="50"/>
+				<StackLayout x:Name="LoginPanel" IsVisible="true">
+					<Label Text="Please Input Email" HorizontalOptions="CenterAndExpand"/>
+					<StackLayout Padding="30,5,30,5">
+						<Entry x:Name="UserEmail" Completed="Input_UserEmail" TextChanged="Input_UserEmail" />
+					</StackLayout>
+				
+					<Label Text="Please Input Password" HorizontalOptions="CenterAndExpand"/>
+					<StackLayout Padding="30,5,30,5">
+						<Entry x:Name="UserPassword" Completed="Input_UserPassword" TextChanged="Input_UserPassword" IsPassword="true"/>
+					</StackLayout>
+					<BoxView HeightRequest="50"/>
+					<Button Text="LogIn" TextColor="Gray" HorizontalOptions="CenterAndExpand" WidthRequest="100" HeightRequest="30" BorderWidth="2" BorderColor="Gray" BorderRadius="5"
+						Clicked="Login_Clicked"/>
+				</StackLayout>
+
+				<StackLayout x:Name="RegisterPanel" IsVisible="false">
+					<Label Text="Please Input Email" HorizontalOptions="CenterAndExpand"/>
+					<StackLayout Padding="30,5,30,5">
+						<Entry Completed="Input_UserEmail" TextChanged="Input_UserEmail"/>
+					</StackLayout>
+				
+					<Label Text="Please Input Password" HorizontalOptions="CenterAndExpand"/>
+					<StackLayout Padding="30,5,30,5">
+						<Entry Completed="Input_UserPassword" TextChanged="Input_UserPassword" IsPassword="true"/>
+					</StackLayout>
+
+					<Label Text="Please Confirm Password" HorizontalOptions="CenterAndExpand"/>
+					<StackLayout Padding="30,5,30,5">
+						<Entry Completed="Input_UserConfirmPassword" TextChanged="Input_UserConfirmPassword" IsPassword="true"/>
+					</StackLayout>
+					<BoxView HeightRequest="50"/>
+					
+					<Button Text="Register" TextColor="Gray" HorizontalOptions="CenterAndExpand" WidthRequest="100" HeightRequest="30" BorderWidth="2" BorderColor="Gray" BorderRadius="5"
+						Clicked="Register_Clicked"/>
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

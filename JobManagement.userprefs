@@ -1,1 +1,41 @@
-﻿<Properties StartupItem="iOS/JobManagement.iOS.csproj" />
+﻿<Properties StartupItem="iOS/JobManagement.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+    <Files>
+      <File FileName="JobManagement/App.xaml" Line="4" Column="43" />
+      <File FileName="JobManagement/App.xaml.cs" Line="11" Column="30" />
+      <File FileName="JobManagement/JobManagementPage.xaml" Line="4" Column="2" />
+      <File FileName="JobManagement/JobManagementPage.xaml.cs" Line="11" Column="3" />
+      <File FileName="JobManagement/obj/Debug/JobManagement.JobManagementPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="JobManagement/View/Login.xaml" Line="54" Column="18" />
+      <File FileName="JobManagement/View/Login.xaml.cs" Line="88" Column="5" />
+      <File FileName="JobManagement/View/StartScreen.xaml.cs" Line="29" Column="4" />
+      <File FileName="JobManagement/obj/Debug/JobManagement.View.Login.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="JobManagement/View/StartScreen.xaml" Line="53" Column="143" />
+      <File FileName="JobManagement/Model/User.cs" Line="9" Column="41" />
+      <File FileName="JobManagement/View/Search.xaml" Line="28" Column="16" />
+      <File FileName="JobManagement/View/Search.xaml.cs" Line="21" Column="24" />
+      <File FileName="JobManagement/packages.config" Line="1" Column="1" />
+      <File FileName="Droid/packages.config" Line="1" Column="1" />
+      <File FileName="JobManagement/View/JobOffersList.xaml" Line="10" Column="1" />
+      <File FileName="JobManagement/View/JobOffersList.xaml.cs" Line="20" Column="2" />
+      <File FileName="JobManagement/View/OfferList.xaml" Line="21" Column="62" />
+      <File FileName="JobManagement/View/OfferList.xaml.cs" Line="49" Column="48" />
+      <File FileName="JobManagement/View/SearchList.xaml" Line="9" Column="1" />
+      <File FileName="JobManagement/View/SearchList.xaml.cs" Line="12" Column="52" />
+      <File FileName="JobManagement/View/Favourite.xaml" Line="5" Column="26" />
+      <File FileName="JobManagement/View/Favourite.xaml.cs" Line="12" Column="52" />
+      <File FileName="JobManagement/View/Settings.xaml" Line="4" Column="3" />
+      <File FileName="JobManagement/View/Settings.xaml.cs" Line="12" Column="52" />
+      <File FileName="JobManagement/obj/Debug/JobManagement.View.JobOffersList.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.JobManagement.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.JobManagement.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+</Properties>

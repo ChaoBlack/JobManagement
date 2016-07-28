@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JobManagement.StartScreen" BackgroundColor="Gray"
+		Title="Mobile App">
+	<CarouselPage.Children>
+		<ContentPage>
+			<StackLayout Orientation="Vertical" BackgroundColor="White" Padding="20,5,20,5">
+				<StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+					<Label Text="Mobile App" FontSize="30" FontAttributes="Bold" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+					<Label Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " HorizontalOptions="CenterAndExpand"/>
+				</StackLayout>
+
+				<StackLayout VerticalOptions="End">
+					<Label Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " HorizontalOptions="CenterAndExpand"/>
+					<BoxView HeightRequest="50"/>
+				</StackLayout>
+				<AbsoluteLayout>
+					<Button Text="Skip" TextColor="Gray" AbsoluteLayout.LayoutBounds="0.5,1,0.5,1" AbsoluteLayout.LayoutFlags="All" Clicked="Skip_Clicked"/>
+				</AbsoluteLayout>
+			</StackLayout>
+		</ContentPage>
+		
+		<ContentPage>
+			<ScrollView Orientation="Vertical">
+				<StackLayout BackgroundColor="White" Orientation="Vertical" Padding="20,5,20,5">
+					<StackLayout.GestureRecognizers>
+						<TapGestureRecognizer Tapped="OnEditorTapped1" NumberOfTapsRequired="2"/>
+					</StackLayout.GestureRecognizers>
+					<BoxView HeightRequest="50"/>
+					<Label Text="Tutorial" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+					<Editor x:Name="Editor1" Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " 
+							VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" IsEnabled="false" Completed="OnEditorCompleted" BackgroundColor="White">
+						<Editor.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnEditorTapped1" NumberOfTapsRequired="2"/>
+						</Editor.GestureRecognizers>
+					</Editor>
+					<BoxView HeightRequest="50"/>
+					<AbsoluteLayout>
+						<Button Text="Skip" TextColor="Gray" AbsoluteLayout.LayoutBounds="0.5,1,0.5,1" AbsoluteLayout.LayoutFlags="All" Clicked="Skip_Clicked"/>
+					</AbsoluteLayout>
+				</StackLayout>
+			</ScrollView>
+		</ContentPage>
+
+		<ContentPage>
+			<ScrollView Orientation="Vertical">
+				<StackLayout BackgroundColor="White" Padding="20,5,20,5">
+					<StackLayout.GestureRecognizers>
+						<TapGestureRecognizer Tapped="OnEditorTapped2" NumberOfTapsRequired="2"/>
+					</StackLayout.GestureRecognizers>
+					<BoxView HeightRequest="50"/>
+					<Label Text="Tutorial" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+					<Editor x:Name="Editor2" Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " 
+							VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" IsEnabled="false" Completed="OnEditorCompleted" BackgroundColor="White">
+						<Editor.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnEditorTapped2" NumberOfTapsRequired="2"/>
+						</Editor.GestureRecognizers>
+					</Editor>
+					<BoxView HeightRequest="50"/>
+					<AbsoluteLayout>
+						<Button Text="Skip" TextColor="Gray" AbsoluteLayout.LayoutBounds="0.5,1,0.5,1" AbsoluteLayout.LayoutFlags="All" Clicked="Skip_Clicked" />
+					</AbsoluteLayout>
+				</StackLayout>
+			</ScrollView>
+		</ContentPage>
+	</CarouselPage.Children>
+</CarouselPage>

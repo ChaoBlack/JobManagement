@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JobManagement.OfferList">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical">
+			<BoxView HeightRequest="20"/>
+			<StackLayout HeightRequest="40" Orientation="Horizontal" Padding="10,0,10,0">
+				<Image HorizontalOptions="EndAndExpand" Source="ic_mode_edit_white.png" HeightRequest="30" VerticalOptions="Center" WidthRequest="30" BackgroundColor="Gray" />
+			</StackLayout>
+			<ListView x:Name="Offers" RowHeight="80" BackgroundColor="Transparent">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<ViewCell.View>
+								<StackLayout Orientation="Vertical" Spacing="0" Padding="20,5,20,5">
+									<!--<Label Font="Bold,20" Text="{Binding OfferTitle}"/>
+									<Label Font="16" Text="{Binding Detail}"/>-->
+									<Label Font="Bold,20" Text="{Binding TAG}"/>
+									<StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+										<Image Source="ic_favorite.png" HorizontalOptions="EndAndExpand" WidthRequest="30" HeightRequest="30">
+											<Image.GestureRecognizers>
+												<TapGestureRecognizer Tapped="Favorite_Clicked"/>
+											</Image.GestureRecognizers>
+										</Image>
+									</StackLayout>
+								</StackLayout>
+							</ViewCell.View>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

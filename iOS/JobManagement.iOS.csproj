@@ -19,7 +19,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: Descubriendo New York Corporation (37R7M87A5T)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchUseSGen>true</MtouchUseSGen>
@@ -29,6 +29,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>92589b74-fe20-48ca-a480-042fe467719f</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>
@@ -127,6 +128,24 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_view_list.png" />
+    <BundleResource Include="Resources\ic_view_list_2x.png" />
+    <BundleResource Include="Resources\ic_view_list_3x.png" />
+    <BundleResource Include="Resources\ic_search_2x.png" />
+    <BundleResource Include="Resources\ic_search_3x.png" />
+    <BundleResource Include="Resources\ic_search.png" />
+    <BundleResource Include="Resources\ic_favorite_2x.png" />
+    <BundleResource Include="Resources\ic_favorite_3x.png" />
+    <BundleResource Include="Resources\ic_favorite.png" />
+    <BundleResource Include="Resources\ic_settings_2x.png" />
+    <BundleResource Include="Resources\ic_settings_3x.png" />
+    <BundleResource Include="Resources\ic_settings.png" />
+    <BundleResource Include="Resources\ic_mode_edit_white_2x.png" />
+    <BundleResource Include="Resources\ic_mode_edit_white_3x.png" />
+    <BundleResource Include="Resources\ic_mode_edit_white.png" />
+    <BundleResource Include="Resources\favourites.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

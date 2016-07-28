@@ -8,7 +8,7 @@ namespace JobManagement
 		{
 			InitializeComponent();
 
-			MainPage = new JobManagementPage();
+			MainPage = new StartScreen();
 		}
 
 		protected override void OnStart()

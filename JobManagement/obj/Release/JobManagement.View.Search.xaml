@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JobManagement.Search">
+	<ContentPage.Content>
+		<ScrollView Orientation="Vertical">
+			<StackLayout Orientation="Vertical">
+				<StackLayout Orientation="Horizontal" VerticalOptions="Start" HeightRequest="80" Padding="10,0,10,0">
+					<Button HeightRequest="30" Text="Register" TextColor="Gray" HorizontalOptions="EndAndExpand" BorderColor="Gray" BorderWidth="2" BorderRadius="5" WidthRequest="70" VerticalOptions="Center"
+						Clicked="Register_Clicked"/>
+				</StackLayout>
+				<StackLayout>
+					<Label Text="Ldsgasiodhglasdg" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+					<Label Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " HorizontalOptions="CenterAndExpand"/>
+				
+					<StackLayout Padding="20,5,20,5">
+						<Label Text="What" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+						<Label Text="asdjkhgasd sdsfij ls" HorizontalOptions="StartAndExpand"/>
+						<Entry />
+					</StackLayout>
+				
+					<StackLayout Padding="20,5,20,5">
+						<Label Text="Where" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+						<Label Text="asdjkhgasd sdsfij ls" HorizontalOptions="StartAndExpand"/>
+						<Entry />
+					</StackLayout>
+				
+					<StackLayout Padding="20,5,20,5">
+						<Label Text="Extra Field" FontSize="20" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+						<Entry />
+					</StackLayout>
+				</StackLayout>
+				<Button Text="Search" HeightRequest="30" HorizontalOptions="CenterAndExpand" TextColor="Gray" VerticalOptions="End" BorderColor="Gray" BorderWidth="2" BorderRadius="5" WidthRequest="70"
+					Clicked="Search_Clicked"/>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
