@@ -28,7 +28,7 @@
 					<BoxView HeightRequest="50"/>
 					<Label Text="Tutorial" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
 					<Editor x:Name="Editor1" Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " 
-							VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" IsEnabled="false" Completed="OnEditorCompleted" BackgroundColor="White">
+							VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" IsEnabled="false" Completed="OnEditorCompleted" BackgroundColor="Transparent">
 						<Editor.GestureRecognizers>
 							<TapGestureRecognizer Tapped="OnEditorTapped1" NumberOfTapsRequired="2"/>
 						</Editor.GestureRecognizers>
@@ -50,7 +50,7 @@
 					<BoxView HeightRequest="50"/>
 					<Label Text="Tutorial" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
 					<Editor x:Name="Editor2" Text="abcehasdgiasdkl sd isdf ilshfs dfiosdhflsdhrsdighas;d sdif hsdifh sodifhsdlhfaghaosdi hsd isdfh sioh " 
-							VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" IsEnabled="false" Completed="OnEditorCompleted" BackgroundColor="White">
+							VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" IsEnabled="false" Completed="OnEditorCompleted" BackgroundColor="Transparent">
 						<Editor.GestureRecognizers>
 							<TapGestureRecognizer Tapped="OnEditorTapped2" NumberOfTapsRequired="2"/>
 						</Editor.GestureRecognizers>

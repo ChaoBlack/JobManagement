@@ -1,11 +1,14 @@
 ﻿<Properties StartupItem="iOS/JobManagement.iOS.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="JobManagement/View/OfferList.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JobManagement/View/Login.xaml.cs">
     <Files>
       <File FileName="JobManagement/View/SearchList.xaml" Line="9" Column="1" />
-      <File FileName="JobManagement/View/Login.xaml.cs" Line="88" Column="5" />
+      <File FileName="JobManagement/View/Login.xaml.cs" Line="73" Column="4" />
       <File FileName="JobManagement/View/StartScreen.xaml.cs" Line="29" Column="4" />
       <File FileName="JobManagement/View/StartScreen.xaml" Line="49" Column="39" />
       <File FileName="JobManagement/View/OfferList.xaml" Line="34" Column="1" />
+      <File FileName="JobManagement/View/Login.xaml" Line="29" Column="35" />
+      <File FileName="JobManagement/View/Settings.xaml.cs" Line="1" Column="1" />
+      <File FileName="JobManagement/View/SearchList.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.JobManagement.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CA133DCB-0042-40F5-8A94-C9BD2899E424" />
@@ -14,5 +17,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.JobManagement.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.JobManagement.Droid PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
 </Properties>

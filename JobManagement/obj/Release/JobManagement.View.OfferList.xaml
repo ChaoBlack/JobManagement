@@ -3,7 +3,7 @@
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical">
 			<BoxView HeightRequest="20"/>
-			<StackLayout HeightRequest="40" Orientation="Horizontal" Padding="10,0,10,0">
+			<StackLayout HeightRequest="40" Orientation="Horizontal" Padding="20,0,20,0" BackgroundColor="#EFEFEF">
 				<Image HorizontalOptions="EndAndExpand" Source="ic_mode_edit_white.png" HeightRequest="30" VerticalOptions="Center" WidthRequest="30" BackgroundColor="Gray" />
 			</StackLayout>
 			<ListView x:Name="Offers" RowHeight="80" BackgroundColor="Transparent">

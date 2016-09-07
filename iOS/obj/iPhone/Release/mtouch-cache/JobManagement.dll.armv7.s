@@ -3395,7 +3395,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "873B528D-A193-4CD5-9956-74CE7109C15C"
+	.asciz "0690A7A8-E21E-4C94-8509-3623D9EEC367"
 .section __TEXT, __const
 	.align 2
 assembly_name:
